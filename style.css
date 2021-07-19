@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+:root {
+    --color-dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg') var(--color-dark-cyan);
+    display: flex;
+    align-items: center;
+    background-position: right calc(47vw + 15%) bottom calc(65vh - 15vw), left calc(40vw + 25%) top calc(72vh - 10vw);
+    background-repeat: no-repeat;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 300px;
+    height: 350px;
+    background-color: aliceblue;
+    margin: auto;
+    border-radius: 5%;
+    box-shadow: 0px 0px 100px 0px var(--Very-dark-desaturated-blue) ;
+
+}
+
+.pattern-card {
+    position: relative;
+    margin-bottom: auto;
+    height: 140px; 
+    width: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.profile-picture {
+    position: absolute;
+    margin-top: 90px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.card-middle {
+    height: 100px;
+    position: absolute;
+    margin-top: 180px;
+    width: 300px;
+    display: inline-flex;
+    justify-content: center;
+
+}
+.name, .status {
+    color: var(--Very-dark-desaturated-blue)
+}
+.age, .stats-name {
+color: var(--Dark-grayish-blue);
+margin-left: 5px;
+font-weight: 400;
+}
+.name, .age {
+    display:inline-flex
+
+}
+.location {
+    position: absolute;
+    top: 30px;
+    color: var(--Dark-grayish-blue);
+    font-weight: 400;
+}
+.card-bottom {
+    position: absolute;
+    top: 260px;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    border-top: 1px solid rgba(106, 111, 129, .5);
+}
+.social-stats {
+    display: inline-flex;
+    position: relative;
+    color: var(--Very-dark-desaturated-blue);
+    flex-direction: column;
+}
+
+.status, .stats-name {
+    margin: 0;
+    padding: 2px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+
+}
+.attribution {
+    display: none;
+}
