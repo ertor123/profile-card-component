@@ -18,7 +18,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://profile-card-component100.netlify.app/
 
 ### Built with
 
